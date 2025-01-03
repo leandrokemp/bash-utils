@@ -6,7 +6,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Remove unused packages
 echo "Removing unused packages"
-sudo apt autoremove && sudo apt autoclean
+sudo apt autoremove -y && sudo apt autoclean -y
 
 # Update flatpak
 echo "Updating flatpak"
