@@ -4,6 +4,9 @@
 echo "Updating the system packages"
 sudo apt update && sudo apt upgrade -y
 
+# Full system upgrade
+sudo apt full-upgrade -y
+
 # Remove unused packages
 echo "Removing unused packages"
 sudo apt autoremove -y && sudo apt autoclean -y
